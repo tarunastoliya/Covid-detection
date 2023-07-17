@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+    <style>
+        h1 {
+            text-align: center;
+            font-family: "times new roman";
+
+        }
+
+        h2 {
+            text-align: center;
+            font-family: "times new roman";
+
+        }
+
+        h3 {
+            text-align: center;
+            font-family: "times new roman";
+
+        }
+
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+        body {
+            background-image: url(https://www.ubp.com/files/live/sites/ubp/files/image/banner_newsroom/200520_Vignette_Web_Detail.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+
+        }
+
+        ul {
+            text-align: center;
+            font-family: "times new roman";
+            list-style-position: inside;
+
+        }
+
+        li {
+            text-align: center;
+            font-family: "times new roman";
+
+        }
+
+
+
+        form {
+            text-align: center;
+            text-shadow: 5px;
+            font-size: 14px;
+        }
+
+        nav {
+            background-color: black;
+            text-align: center;
+            text-emphasis-color: white;
+            padding: 4px;
+            background-size: cover;
+        }
+
+        .Mainheading {
+            text-align: center;
+            background-color: yellow opacity: 0.2;
+            opacity: 0.8;
+            font-family: "times new roman";
+            padding-bottom: 30px;
+            padding-top: 5px;
+            font-size: 70px;
+
+        }
+
+        .Subheading {
+            text-align: center;
+            background-color: yellow opacity:0.2;
+            opacity: 0.8;
+            font-family: "times new roman";
+            font-weight: italic;
+            padding-bottom: 30px;
+            padding-top: 5px;
+            font-size: 50px;
+
+        }
+
+
+        .subbtn {
+            font-weight: bold;
+            font-size: 25px;
+            padding: 2px;
+            border: 5px;
+        }
+
+        .btn {
+            font-weight: bold;
+            font-size: 30px;
+            padding: 2px;
+            border: 5px;
+
+        }
+    </style>
+
+
+
+    <title>Covid Detection</title>
+</head>
+
+
+<body>
+
+
+
+    <h1 class="Mainheading">COVID-19 DETECTION APPLICATION</h1>
+    <br>
+
+
+    <h3 class="Subheading" ; style="font-style:italic">Please Upload X-RAY Report</h3>
+
+
+    <form action="prediction" method="POST" enctype="multipart/form-data">
+        <br>
+
+        <input class="btn" type="file" name="img" ; style="font-family:consolas">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input class="subbtn" type="Submit" name="btn" ;
+            style="font-family:consolas; background-color:beige; font-style:italic;font-size:40px">
+        <br>
+    </form>
+
+
+</body>
+
+</html>
